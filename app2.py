@@ -31,7 +31,6 @@ input_dict = {
     'Odometer': Odometer,
     'maintenance_category': category_map[maintenance_category],
     'request_day_of_week': request_day_of_week,
-    'request_hour': request_hour,
     'request_month': request_month,
     # Fill missing features with default values (e.g., 0)
 }
