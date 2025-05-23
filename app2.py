@@ -46,3 +46,4 @@ input_data = pd.DataFrame([[input_dict[feat] for feat in feature_names]], column
 
 # Predict
 prediction = model.predict(input_data)[0]
+st.success(f"Predicted Maintenance Priority: {int(prediction)}")
